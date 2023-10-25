@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 150px;
+    padding: 75px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.headerText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7em;
+}
+
+.pageLinkDivs{
+    margin-top: 150px;
+}
+
+.cMarginTop{
+    margin-top: 70px;
+    width: 100%;
+    height: 500px;
+}
+
+.pageLinkDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+    height: 250px;
+    margin: 15px;
+}
+
+.pageLinks{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+}
+
+.polaroidDiv{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    padding-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cImg{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    border: 2px solid black;
+}
+
+.smLinksDiv{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    width: 25%;
+    padding: 15px;
+    background-color: white;
+}
+
+.smLinksImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.returnDiv{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    padding: 0px;
+    background-color: white;}
+
+.black{
+    color: white;
+}
